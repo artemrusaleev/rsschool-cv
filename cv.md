@@ -53,7 +53,18 @@ Programming Languages
 
 :   **CSS3:** SASS\SCSS, Stylus
 
+Project management systems
+
+:   **Trello**
+:   **GitLab**
+
+Version control systems
+
+:  **Git**
+
 :   Basic knowledge of **Java**, **Node.js**, **SQL**, **Mongo**, **React.js**
+
+
 
 [ref]: https://github.com/artemrusaleev
 
@@ -68,4 +79,8 @@ My personal human skills
      * French  (A2)
 
 * Soft skills:
-     
+  * Single-minded
+  * Strong analytical skills
+  * Team player
+  * Good sense of humour
+  * Singer, dancer and sequencer player :)
