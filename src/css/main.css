@@ -1,0 +1,120 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  display: block;
+}
+li{
+  display: block;
+}
+h2,h3{
+  text-transform: uppercase;
+}
+.wrapper {
+  max-width: 1060px;
+  margin: 0 auto;
+}
+.header {
+  position: relative;
+  margin: 25px auto;
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.header-container {
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+}
+.header-profile {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.profile-avatar {
+  width: 150px;
+  height: 150px;
+  margin-right: 50px;
+}
+.avatar-img {
+  display: block;
+  width: 100%;
+  border-radius: 100%;
+  object-fit: cover;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.profile-welcome {
+  display: flex;
+  flex-direction: column;
+  padding: 25px;
+}
+.welcome-text {
+  margin-top: 15px;
+  color:#111;
+  font-weight: 500;
+}
+.main {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.main-container {
+  padding: 25px;
+}
+.main-contacts {
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.contacts-item a {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(155, 153, 255);
+  margin: 3px auto;
+  transition: all .2s ease;
+}
+.contacts-item a:hover{
+  transform: scale(1.01);
+}
+.main-expirience {
+  margin-top: 50px;
+  padding: 25px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.expirience-item {
+  font-size: 18px;
+  margin:10px;
+}
+.expirience-item h3{
+  font-size: 18px;
+}
+.expirience-sublist {
+  margin: 10px;
+}
+.sublist-item a {
+  display: inline-block;
+  font-weight: bold;
+  color: rgb(155, 153, 255);
+  transition: all .2s ease;
+}
+.sublist-item a:hover{
+  transform: scale(1.02);
+}
+@media only screen and (max-width:700px){
+  .header-profile{
+    flex-flow: wrap;
+    justify-content: center;
+  }
+  .profile-avatar{
+    margin-right: 0;
+  }
+  .profile-welcome{
+    text-align: center;
+  }
+  .main-contacts{
+    text-align: center;
+  }
+}
